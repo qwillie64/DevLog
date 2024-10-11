@@ -10,9 +10,6 @@ on:
 jobs:
   update-activity:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
     steps:
       - uses: actions/checkout@v4
       - name: Update For raymundlin/activity-log@v10
