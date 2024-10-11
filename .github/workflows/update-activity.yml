@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Update For raymundlin/activity-log@v10
-        uses: raymundlin/activity-log@v10
+      - name: Update...
+        uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "qwillie64"
           GITHUB_TOKEN: ${{ secrets.mytoken }}
