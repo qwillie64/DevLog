@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update...
-        uses: qwillie64/my-activity-log@v1
+        uses: qwillie64/my-activity-log@v2
         with:
           GITHUB_USERNAME: "qwillie64"
           GITHUB_TOKEN: ${{ secrets.mytoken }}
